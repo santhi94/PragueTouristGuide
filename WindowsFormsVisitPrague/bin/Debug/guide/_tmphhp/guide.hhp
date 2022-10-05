@@ -1,0 +1,35 @@
+[OPTIONS]
+TITLE=YourProject
+Full-text search=Yes
+Display compile notes=YES
+Display compile progress=YES
+Compatibility=1.1
+Default Window=Main
+Compiled file=guide.chm
+Error Log file=guide.log
+Contents file=guide.hhc
+Index File=guide.hhk
+Default Topic=προορισμοι.html
+
+[FILES]
+εισαγωγή.html
+επισκέπτης.html
+εγγεγραμένοςχρήστης.html
+γενικέςπληροφορίες.html
+αξιοθέατα.html
+εκδηλώσεις.html
+γαστρονομια.html
+διαμονή.html
+προορισμοι.html
+
+
+[WINDOWS]
+Main="Main","guide.hhc","guide.hhk","","", ,,,,0x061520,200, 0x00304E, [271, 322, 643, 516]  , 0x307e, , , , , , , , 0
+Popup="Popup","guide.hhc","guide.hhk","","", ,,,,0x061520,200, 0x00304E, [271, 322, 643, 516]  , 0x307e, , , , , , , , 0
+
+
+[MAP]
+#include guide.h
+
+[TEXT POPUPS]
+CSHelp.txt

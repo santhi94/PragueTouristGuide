@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Τσεχία δεν είναι μόνο η Πράγα… Μπορεί η πρωτεύουσα της χώρας να είναι μία από τις πιο όμορφες πόλεις της Ευρώπης, με το εντυπωσιακό κάστρο, τις εμβληματικές γέφυρες, τις ιστορικές πλατείες της και το σπίτι που “χορεύει”, να προσελκύουν επισκέπτες από όλο τον κόσμο, όμως υπάρχουν και άλλες πόλεις που αξίζουν μια επίσκεψη!
+</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Το Κάρλοβι Βάρι είναι μια όμορφη λουτρόπολη, 140 χμ από την Πράγα και είναι δημοφιλής τουριστικός προορισμός. Αν βρεθείτε στην Πράγα οπωσδήποτε να κι εκεί, με μια ημερήσια εκδρομή ή ακόμα και για να μείνετε αν αναζητάτε ξεκούραση και είστε λάτρεις των ιαματικών λουτρών και των σπα !
+Πως θα πάτε
+- Με λεωφορείο από τον κεντρικό σταθμό Florenc, σε 2 ώρες και 15 λεπτά. </value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>To Όλομουτς είναι μια πόλη στην ανατολική επαρχία της Μοραβίας στην Τσεχία. Είναι γνωστό για τα 6 μπαρόκ σιντριβάνια και τη στήλη της Αγίας Τριάδας του 18ου αιώνα, ένα μνημείο διακοσμημένο με θρησκευτικά γλυπτά. Στο λόφο Wenceslas βρίσκονται ο γοτθικός καθεδρικός ναός St. Wenceslas και το ρωμανικό παλάτι του επισκόπου. Το Δημαρχείο είναι ένα σπίτι πρώην εμπόρου με θολωτά δωμάτια και αστρονομικό ρολόι</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Στην ανατολική Μοραβία βρίσκεται η δεύτερη μεγάλη πόλη της Τσεχίας και μπορεί να συνδυάσει μια ήρεμη ατμόσφαιρα σε ένα μεσαιωνικό σκηνικό.
+Αξίζει να επισκεφθείτε τα σπήλαια Moravian Karst και το φαράγγι του Macocha και να περιηγηθείτε με βάρκα κατά μήκος ενός υπόγειου ποταμού.Τα καλοκαίρια πραγματοποιείται το Grand Prix μοτοσικλέτας ενώ κάθε χρόνο από τις 21 Μαΐου μέχρι τις 7 Ιουνίου η πόλη φιλοξενεί το διεθνές φεστιβάλ πυροτεχνημάτων και αερόστατων Ignis Brunensis. </value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Δεν χρειάζεται να γνωρίζει κανείς ότι η πόλη του Πίλσεν είναι το πνευματικό σπίτι της μπύρας. Μπορείτε να πείτε από το όνομα ότι εδώ γεννήθηκε το Pilsner lager και αυτό είναι το ιδανικό μέρος για να σβήσετε την περιέργειά σας για την πιο διάσημη εξαγωγή της Τσεχίας. Η παλιά πόλη έχει μακροχρόνιους δεσμούς με αυτή τη βιομηχανία και αξίζει τον κόπο σας, ιδιαίτερα την αρχιτεκτονική γύρω από την πλατεία της Δημοκρατίας όπου γοητευτικά γοτθικά και αναγεννησιακά κτίρια σφύζουν από προσοχή.</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+</root>

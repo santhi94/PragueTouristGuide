@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Ισως το κεντρικότερο σημείο της πόλης.Είναι μία από τις πλέον φημισμένες αψιδωτές και ιστορικές γέφυρες της Ευρώπης. Βρίσκεται στον ποταμό Μολδάβα στο κέντρο της Πράγας. Η κατασκευή της άρχισε το 1357 υπό την αιγίδα του βασιλιά Καρολου Δ' προς τιμή του οποίου και φέρει το όνομα, και τελείωσε στην αρχή του 15ου αιώνα. Ηταν η σημαντικότερη σύνδεση μεταξύ της Παλαιάς Πόλης και των παρακείμενων περιοχών μέχρι το 1841</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Πρόκειται για το μεγαλύτερο μεσαιωνικό κάστρο της Ευρώπης το οποίο αποτελούσε κύρια κατοικία των Τσέχων βασιλιάδων για αρκετούς αιώνες.
+Η ιστορία του κάστρου της Πράγας ξεκινάει τον 9ο αιώνα. Από τότε επαναλαμβανόμενοι πόλεμοι, φωτιές και ανακαινίσεις από διαφορετικές πολιτικές δυνάμεις δημιούργησαν ένα πλέγμα από παλάτια, ναούς και προστατευτικά τείχη</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Είναι μια γοτθική εκκλησία και ένα κυρίαρχο χαρακτηριστικό της παλιάς Πόλη της Πράγας, στην κεντρική πλατία. Υπήρξε η κύρια εκκλησία της πόλης από τον 14ο αιώνα. Ο πύργους της εκκλησίας είναι 80 μέτρα ύψος και ολοκληρώνεται με τέσσερα μικρά καμπαναριά.</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Είναι ένα μεσαιωνικό αστρονομικό ρολόι στο κέντρο της Πράγας. Το σημερινό ρολόι είναι ένα πιστό αντίγραφο του αρχικού, που καταστράφηκε στον Β΄ Παγκόσμιο Πόλεμο. Βρίσκεται στον νότιο τοίχο του Παλιού Δημαρχείου, στην Πλατεία της Παλιάς Πόλης, και αποτελεί σημαντική και δημοφιλή τουριστική «ατραξιόν».</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Δεσπόζει στον λόφο πάνω από τον ποταμό Μολδάβα, είναι η μεγαλύτερη εκκλησία της Πράγας, με μήκος 124 μ και πλάτος 60 μ. Το κωδωνοστάσιό της με ύψος 99,5 μ θεωρείται ο ψηλότερος ιστορικός πύργος της Πράγας.Ο ναός φιλοξενεί το μεγαλοπρεπές θησαυροφυλάκιο με τα κοσμήματα του στέμματος, άγια λείψανα καθώς και υπόγεια κρύπτη με τους τάφους πολλών ηγεμόνων και βασιλιάδων του Τσέχικου βασιλείου.</value>
+  </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>132, 17</value>
+  </metadata>
+</root>
